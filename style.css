@@ -1,0 +1,94 @@
+.contain .caption .head{
+    margin-left: 60px;
+    margin-right: 20px;
+}
+.contain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.contain .caption input{
+    padding: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+#btn-add{
+    background: rgb(57, 92, 57);
+    border: 1px solid black;
+    padding: 7px;
+    color: white;
+    margin-right: 5px;
+}
+#btn-rem{
+    background: rgb(170, 77, 43);
+    border: 1px solid black;
+    margin-right: 5px;
+    padding: 7px;
+    color: #fff;
+}
+#array{
+    background: rgb(46, 71, 116);
+    border: 1px solid black;
+    margin-right: 5px;
+    padding: 7px;
+    color: #fff;
+}
+#btn-add:hover{
+    background: transparent;
+    color: black;
+    border: 1px solid brown;
+    border-radius: 14px;
+}
+#btn-rem:hover{
+    background: transparent;
+    color: black;
+    border: 1px solid brown;
+    border-radius: 14px;
+}
+#array:hover{
+    background: transparent;
+    color: black;
+    border: 1px solid brown;
+    border-radius: 14px;
+}
+.contain .caption{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+
+@media screen and (max-width:600px) {
+    .contain{
+        flex-direction: column;
+    }
+    /* .contain input{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .contain h1{
+        font-size: 40px;
+    }
+    .btns{
+        display: flex;
+    }
+    #btn-add{
+        margin-right: 20px;
+        padding: 10px;
+    }
+    #btn-rem{
+        margin-right: 20px;
+    } */
+    .contain .caption{
+        margin-right: 45px;
+    }
+    .btns{
+        margin-right: 50px;
+        margin-top: 10px;
+    }
+}
